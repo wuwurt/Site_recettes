@@ -1,0 +1,137 @@
+body{
+    background-color: #8ba1bb;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p.categorie{
+    background-color: black;
+    color: white;
+    display: inline-block;
+    padding: 8px 18PX;
+    margin-top: -15px;
+    font-weight: bold;
+    font-size: 16px;
+}
+.centre{
+    text-align: center;
+    width: 100%;
+}
+div.contenu{
+    background-color: white;
+    margin: 60PX 10% 80PX 10%;
+    padding: 0px 30px 30px 30px;
+    min-width: 350px;
+    box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.2);
+    overflow: visible;
+}
+h1{
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+p.description{
+    text-align: center;
+    max-width: 400px;
+    display: INLINE-block;
+    font-size: 14px;
+}
+div.categorie{
+    margin-bottom: 0px;
+    margin-top: 0px;
+    overflow: visible;
+
+}
+div.separateur{
+    height: 1PX;
+    width: 100PX;
+    background-color: BLACK;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div.info{
+    position: relative; 
+}
+
+table.info{
+    position: absolute;
+    bottom: 0; 
+    width: 100%; 
+    background-color: #6c829dC0;
+    color: white;
+    height: 80PX;
+}
+table.info td{
+    text-align: center;
+    font-size: 14px;
+    vertical-align: top;
+}
+table.info th{
+    font-size: 16px;
+    vertical-align: bottom;
+    padding-bottom: 8px;
+}
+img.info{
+    display: block;
+    max-height: 400px;
+    object-fit: cover;
+    min-height: 200px;
+    background-color: lightgrey;
+}
+
+div.colonne{
+    width: 45%;
+    margin-top: 20px;
+
+}
+
+div.colonne h2{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 16px;
+    border-bottom:5px solid #6c829d;
+    padding-bottom: 5px;
+}
+div.colonne1{
+    display: inline-block;
+    margin-right: 10%;
+
+}
+div.colonne2{
+    float: right;
+}
+div.bordure p{
+    border: 1px solid lightgrey;
+    padding: 10px;
+    font-size: 14px;
+    margin-top: 5PX;
+    margin-bottom: 5px;
+
+}
+table.preparation p.numero{
+    background-color:#6c829d ;
+    color: white;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    box-sizing: border-box;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 4px;
+    border-radius: 50%;
+    margin-top: 0px;
+
+}
+table.preparation td{
+    vertical-align: top;
+}
+table.preparation td.preparation_etape{
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+table.preparation tr{
+    height:50px;
+}
+*{
+    overflow: auto;
+}
